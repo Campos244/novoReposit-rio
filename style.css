@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Martian+Mono:wght@300&display=swap');
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Define a altura para 100% da altura da viewport */
+    margin: 10px; /* Remove margens padrão do body */
+    background-image: url('./images/fundo-devboard.jpg');
+    background-size: 600px auto; 
+    background-repeat: no-repeat;
+}
+
+
+.beatriz-campos-card{
+    
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fotinha_beatriz{
+    width: 100px;
+    border-radius: 50%;
+    
+    }
+
+.titulo_bea{
+    font-size: 54px;
+    font-family: 'Grape Nuts', cursive;
+    justify-content: center;
+    text-align: center;
+    color:rgb(37, 56, 2);
+    
+    
+}
+
+.textinhos_bea{
+    font-size: 30px;
+    font-family: 'Grape Nuts', cursive;
+    color:rgb(59, 88, 5);
+    justify-content: center;
+    text-align: center;
+}
+
+.linkedIn_logo :hover{
+    height: 70px;
+}
